@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control
+    namespace="rafutech"
+    constructor="SearchBox"
+    version="1.0.20"
+    display-name-key="Search Box"
+    description-key="Champ de recherche avec icône loupe"
+    control-type="standard"
+  >
+    <property
+      name="hintText"
+      display-name-key="Hint Text"
+      description-key="Texte affiché quand le champ est vide"
+      of-type="SingleLine.Text"
+      usage="input"
+      required="false"
+    />
+    <property
+      name="textValue"
+      display-name-key="Text Value"
+      description-key="Valeur saisie par utilisateur"
+      of-type="SingleLine.Text"
+      usage="bound"
+      required="false"
+    />
+    <property
+      name="jsonSettings"
+      display-name-key="JSON Settings"
+      description-key="JSON de configuration couleurs, typographie et mise en page du composant"
+      of-type="Multiple"
+      usage="input"
+      required="false"
+    />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/SearchBox.css" order="1" />
+    </resources>
+  </control>
+</manifest>

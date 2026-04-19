@@ -1,0 +1,27 @@
+{
+  "name": "rafutech-searchbox",
+  "version": "1.0.20",
+  "description": "PCF SearchBox component — RAFUTECH",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start watch",
+    "refreshTypes": "pcf-scripts refreshTypes"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/powerapps-component-framework": "^1.3.4",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "pcf-scripts": "^1.0.0",
+    "pcf-start": "^1.0.0",
+    "typescript": "^5.0.0"
+  }
+}
